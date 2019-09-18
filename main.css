@@ -11,4 +11,34 @@
     background: url(./assets/hero.jpg);
     background-repeat: no-repeat;
     background-position-y: 100% ;
+    position: relative;
+}
+
+.nav {
+    display: grid ;
+    grid-auto-flow: column ;
+    grid-gap: 10px ;
+    text-decoration: none ;
+    grid-template-columns: repeat(8 , minmax(104px ,1fr)) auto;
+    padding: 0 6px ;
+    grid-auto-rows: 45px ;
+    position: absolute;
+    margin: 0 10% ;
+    background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.5) ,rgba(0 , 0 , 0 , 0.2) );
+    top: 100px ;
+    align-items: center;
+    justify-items: center ;
+    border-radius: 7px ;
+}
+
+.nav a , .nav input {
+    text-decoration: none ;
+    color : white ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav input {
+    background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.5) ,rgba(0 , 0 , 0 , 0.2) );
+    border: none;
+    border-radius: 12px ;
 }
