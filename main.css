@@ -42,3 +42,15 @@
     border: none;
     border-radius: 12px ;
 }
+
+img {
+    width: 100% ;
+    height : auto ;
+}
+
+.images {
+    display: grid ;
+    grid-template-columns: repeat(4 , 1fr);
+    margin: 20px 0 0 0;
+    grid-gap: 5px ;
+}
